@@ -19,7 +19,7 @@ $(document).ready(function() {
 			$("section").empty(); // Clear previous images
 			var topicBtn = $(this).attr("data-name"); // Capture the data-name value from clicked button
 			var APIkey = "&api_key=dc6zaTOxFJmzC";
-		    var queryURL = "http://api.giphy.com/v1/gifs/search?&q=" + topicBtn + "&limit=10&rating=pg&api_key=dc6zaTOxFJmzC";
+		    var queryURL = "https://api.giphy.com/v1/gifs/search?&q=" + topicBtn + "&limit=10&rating=pg&api_key=dc6zaTOxFJmzC";
 
 		    // AJAX call for the specific topic button being clicked
 		    $.ajax({
